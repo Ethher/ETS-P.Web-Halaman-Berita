@@ -102,3 +102,47 @@ h1 {
         padding: 15px;
     }
 }
+
+.related-news {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.related-news h2 {
+    font-size: 1.5em;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.related-news ul {
+    list-style: none;
+}
+
+.related-news ul li {
+    margin-bottom: 10px;
+}
+
+.related-news ul li a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+.related-news ul li a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #333;
+    color: white;
+    margin-top: 40px;
+}
+
+footer p {
+    margin: 0;
+}
